@@ -7,6 +7,7 @@ idna==2.8
 jdcal==1.4
 openpyxl==2.6.0
 parsing==1.6.1
+pyTelegramBotAPI==2.2.3
 requests==2.7.0
 selenium==3.141.0
 six==1.12.0
