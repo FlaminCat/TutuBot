@@ -88,7 +88,7 @@ def scrapper_with_date(parser):
 
 def sense(departure, arrival, date=None):
 	if date is not None:
-		driver = webdriver.Chrome("/Users/andrey/Downloads/chromedriver")
+		driver = webdriver.Chrome("/app/.apt/usr/bin/google-chrome")
 		driver.get(f'https://www.tutu.ru/poezda/rasp_d.php?nnst1={departure}&nnst2={arrival}&date={date}')
 		response = driver.page_source
 		soup = BeautifulSoup(response, "html.parser")
